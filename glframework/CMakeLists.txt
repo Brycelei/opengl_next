@@ -4,7 +4,7 @@ include_directories(
 	 ${PROJECT_SOURCE_DIR}/thirdParty/include
 	 ${PROJECT_SOURCE_DIR}/thirdParty/include/glm
 	 ${PROJECT_SOURCE_DIR}/thirdParty/include/glad
-	 ${PROJECT_SOURCE_DIR}/thirdParty/include/zlib
+	 #${PROJECT_SOURCE_DIR}/thirdParty/include/zlib
 
 )
 

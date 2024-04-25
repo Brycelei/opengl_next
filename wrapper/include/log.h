@@ -12,7 +12,9 @@ namespace NESI_NEXT
 	class Log
 	{
 	public:
-        inline static const std::string LOG_FORMAT = "[%Y-%m-%d %H:%M:%S] [%l] %v";
+        //inline static const std::string LOG_FORMAT = "[%Y-%m-%d %H:%M:%S] [%l] %v";
+        inline static const std::string LOG_FORMAT = "[%Y-%m-%d %H:%M:%S] [%l] [Thread %t] %v %$";
+
 		static void init();
 		inline static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; }
 		inline static std::shared_ptr<spdlog::logger>& GetClientLogger() { return s_ClientLogger; }

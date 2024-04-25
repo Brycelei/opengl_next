@@ -17,8 +17,6 @@ uniform sampler2D texture_diffuse;
 uniform sampler2D texture_ambient;
 
 
-
-
 uniform int has_texture_albedo;
 uniform int has_texture_normal;
 uniform int has_texture_metalness;
